@@ -29,5 +29,5 @@ void day1() {
     std::cout << "First: " << first << std::endl;
     std::cout << "Second: " << second << std::endl;
     std::cout << "Third: " << third << std::endl;
-    std::cout << "Total: " << first + second + third;
+    std::cout << "Total: " << first + second + third << std::endl;
 }
