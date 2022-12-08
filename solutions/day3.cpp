@@ -22,8 +22,8 @@ std::string get_intersection(std::string string1, std::string string2) {
 void day3part1() {
     std::string line;
     int sum_of_priorities = 0;
-    std::ifstream Day2Input("../inputs/day3.txt");
-    while (getline(Day2Input, line)) {
+    std::ifstream Day3Input("../inputs/day3.txt");
+    while (getline(Day3Input, line)) {
         int length = line.size();
         std::string compartment1 = line.substr(0, length / 2);
         std::string compartment2 = line.substr(length / 2);
@@ -33,9 +33,15 @@ void day3part1() {
 }
 
 void day3part2() {
-    std::string line;
-    std::ifstream Day2Input("../inputs/day3.txt");
-    while (getline(Day2Input, line)) {
+    std::string line1;
+    std::string line2;
+    std::string line3;
+    int sum_of_priorities = 0;
+    std::ifstream Day3Input("../inputs/day3.txt");
+    while (getline(Day3Input, line1)) {
+        getline(Day3Input, line2);
+        getline(Day3Input, line3);
+        sum_of_priorities += getPriority(get_intersection(line1, get_intersection(line2, line3))[0]);
     }
-    std::cout << "Day 3 part 2: " << std::endl;
+    std::cout << "Day 3 part 2: " << sum_of_priorities << std::endl;
 }
