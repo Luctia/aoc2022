@@ -6,7 +6,7 @@ Here you will find my Advent of Code implementations of 2021. For this year, I'v
 | Day 1         | :heavy_check_mark: :heavy_check_mark: |                                       |
 | Day 2         | :heavy_check_mark: :heavy_check_mark: | Could probably be far more efficient. |
 | Day 3         | :heavy_check_mark: :heavy_check_mark: |                                       |
-| Day 4         | :x: :x:                               |                                       |
+| Day 4         | :heavy_check_mark: :heavy_check_mark: |                                       |
 | Day 5         | :x: :x:                               |                                       |
 | Day 6         | :x: :x:                               |                                       |
 | Day 7         | :x: :x:                               |                                       |

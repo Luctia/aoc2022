@@ -2,6 +2,7 @@
 #include "solutions/day1.h"
 #include "solutions/day2.h"
 #include "solutions/day3.h"
+#include "solutions/day4.h"
 
 int main() {
     day1();
@@ -9,4 +10,6 @@ int main() {
     part2();
     day3part1();
     day3part2();
+    day4part1();
+    day4part2();
 }
