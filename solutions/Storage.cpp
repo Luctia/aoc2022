@@ -21,10 +21,21 @@ Storage::Storage(const std::vector<std::string>& lines) {
     }
 };
 
-void Storage::rearrange(int from_stack, int to_stack, int amount) {
+void Storage::rearrange_9000(int from_stack, int to_stack, int amount) {
     for (int i = 0; i < amount; ++i) {
         stacks[to_stack].push(stacks[from_stack].top());
         stacks[from_stack].pop();
+    }
+}
+
+void Storage::rearrange_9001(int from_stack, int to_stack, int amount) {
+    std::vector<char> taken;
+    for (int i = 0; i < amount; ++i) {
+        taken.push_back(stacks[from_stack].top());
+        stacks[from_stack].pop();
+    }
+    for (int i = amount - 1; i >= 0; --i) {
+        stacks[to_stack].push(taken.at(i));
     }
 }
 
