@@ -17,4 +17,4 @@ public:
 };
 
 
-#endif //AOC2022_STORAGE_H
+#endif

@@ -1,7 +1,3 @@
-//
-// Created by luctia on 11-12-22.
-//
-
 #ifndef AOC2022_DAY5_H
 #define AOC2022_DAY5_H
 
