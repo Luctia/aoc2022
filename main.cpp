@@ -3,6 +3,7 @@
 #include "solutions/day3.h"
 #include "solutions/day4.h"
 #include "solutions/day5.h"
+#include "solutions/day6.h"
 
 int main() {
     day1();
@@ -14,4 +15,6 @@ int main() {
     day4part2();
     day5part1();
     day5part2();
+    day6part1();
+    day6part2();
 }
