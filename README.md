@@ -1,5 +1,5 @@
 # aoc2022
-Here you will find my Advent of Code implementations of 2021. For this year, I've decided to go
+Here you will find my Advent of Code implementations of 2022. For this year, I've decided to go
 with C++.
 
 | Day           | Finished                              | Remarks                               |
@@ -12,7 +12,7 @@ with C++.
 | Day 6         | :heavy_check_mark: :heavy_check_mark: |                                       |
 | Day 7         | :x: :x:                               |                                       |
 | Day 8         | :heavy_check_mark: :heavy_check_mark: |                                       |
-| Day 9         | :x: :x:                               |                                       |
+| Day 9         | :heavy_check_mark: :heavy_check_mark: |                                       |
 | Day 10        | :x: :x:                               |                                       |
 | Day 11        | :x: :x:                               |                                       |
 | Day 12        | :x: :x:                               |                                       |
