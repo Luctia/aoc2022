@@ -4,8 +4,8 @@ Rope::Rope(int length) {
     if (length == 0) {
         return;
     }
-    Knot *first_knot = new Knot();
-    Knot *latest = first_knot;
+    this->first = new Knot();
+    Knot *latest = this->first;
     for (int i = 0; i < length - 1; ++i) {
         Knot *next_knot = new Knot();
         latest->set_next(next_knot);

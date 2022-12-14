@@ -6,7 +6,7 @@
 void day9part1() {
     std::string line;
     std::ifstream Day9Input("../inputs/day9.txt");
-    Rope rope = Rope(4);
+    Rope rope = Rope(2);
     while (getline(Day9Input, line)) {
     }
     Day9Input.close();

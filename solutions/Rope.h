@@ -5,7 +5,7 @@
 #include "Knot.h"
 
 class Rope {
-    Knot first;
+    Knot *first;
 public:
     explicit Rope(int length);
 };
